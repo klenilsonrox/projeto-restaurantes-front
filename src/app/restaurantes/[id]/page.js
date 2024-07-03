@@ -33,7 +33,7 @@ const RestaurantDetails = ({params}) => {
 
 
     return (
-        <div className='max-w-7xl mx-auto'>
+        <div className='max-w-7xl mx-auto p-4'>
             <h1 className="text-3xl font-semibold py-10 flex items-center gap-4"> <img src={restaurant.urlImage} alt="" className='w-20 h-20 object-cover rounded-full'/> <span>{restaurant.name}</span> </h1>
             <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {products && products.map(product => (
