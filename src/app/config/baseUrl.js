@@ -1,0 +1,1 @@
+export const baseUrl= "https://projeto-restaurantes.vercel.app/api"
